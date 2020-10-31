@@ -1,0 +1,25 @@
+Game Selected -> **Poker**
+
+How has AI been used to play this game? **Kyle**
+ - x
+ - x
+
+What environment does this game exist in? **Kyle**
+- x
+- x
+
+(Stochastic/deterministic/observable?) + details and explanation as to why **Morgan**
+- x
+- x
+
+Define the problem (state, actions, transition model etc) **Morgan**
+- x
+- x
+
+What search algorithm do we use? **Mohammed**
+- x
+- x
+
+How well does it do in a competitive environment (examples) **Mohammed**
+- x
+- x
