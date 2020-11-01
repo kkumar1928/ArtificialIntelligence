@@ -1,25 +1,55 @@
 Game Selected -> **Poker**
 
-How has AI been used to play this game? **Kyle**
+==============How has AI been used to play this game? **Kyle**==============
  - x
  - x
 
-What environment does this game exist in? **Kyle**
+==============What environment does this game exist in? **Kyle**==============
 - x
 - x
 
-(Stochastic/deterministic/observable?) + details and explanation as to why **Morgan**
+==============(Stochastic/deterministic/observable?) + details and explanation as to why **Morgan**===============
+Poker is a stochastic game:
+
+-- There are no known algorithms that can be used to predict the outcome of the game.
+
+-- This is because there is a certain amount of randomness as to which card will be drawn.
+
+-- In a perfect scenario the agent will be unable to predict which card will be drawn - this is because they can only see, 
+   at a maximum, six cards (in a standard game of texas hold'em, the agent has two cards, and four cards would be visible 
+   on the table before the fifth and final card is revealed, and which point randomness is not a factor).
+
+==============Define the problem (state, actions, transition model etc) **Morgan**==============
+Using PEAS:
+
+-Performance Measure
+-- Another player/agent folding their hand
+-- Winning a hand
+-- Having more chips than other players/agents
+-- Winning the game
+
+-Environment
+-- Stochastic
+-- Partially observable - we cannot see what cards the other players/agents have and which cards will be drawn
+-- Static - the cards that will be drawn and that other players have will not change
+
+-Actuator
+-- The only actuators that can be performed are the moves available to a player within poker:
+--- Fold
+--- Call
+--- Check
+--- Raise
+
+-Sensors
+-- Cards on the table
+-- Cards within hand
+-- Cards remaining within the deck (based on those on the table)
+-- The 'tells' of other players
+
+==============What search algorithm do we use? **Mohammed**==============
 - x
 - x
 
-Define the problem (state, actions, transition model etc) **Morgan**
-- x
-- x
-
-What search algorithm do we use? **Mohammed**
-- x
-- x
-
-How well does it do in a competitive environment (examples) **Mohammed**
+==============How well does it do in a competitive environment (examples) **Mohammed**==============
 - x
 - x
