@@ -53,9 +53,14 @@ Using PEAS:
 -- The 'tells' of other players
 
 ==============What search algorithm do we use? **Mohammed**==============
-- x
-- x
+- Genetic Algorithm
+-- Poker game is one of AI games that is considered challenging in developing an algorithm, because of its complexity to support its search. 
+-- Imperfection information games such as poker would consist of 10^16 nodes (possibilities) in its search tree. Which would require large 
+computational resources for processing and time used. 
+-- To optimize the process Genetic algorithm search would capitalize on its ability to iterate its population based on genes until the 
+right solution is achieved using less computational power and time.
 
 ==============How well does it do in a competitive environment (examples) **Mohammed**==============
-- x
-- x
+-- Because of its ability to search rule sets, neural network architectures, cellular automate computers, they are widely used in situations 
+where a set of rules needs to evaluate a predication. 
+-- In that regard, its competitors are Q-learning, TD-learning.
