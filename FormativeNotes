@@ -1,14 +1,18 @@
 Game Selected -> **Poker**
 
 ==============How has AI been used to play this game? **Kyle**==============
-PokerSnowie and Claudico are AIs that have been created and developed by allowing the computer to determine the best possible strategy by letting them play itself many many times. This allows the AI to learn the best strategy possible. 
+PokerSnowie and Claudico are AIs that have been created and developed by allowing the computer to determine the best possible 
+strategy by letting them play itself many many times. This allows the AI to learn the best strategy possible. 
 
-Many AIs took the approach of neural networks over making the AI play like a human, this is because Poker does not have one simple strategy, instead it relies on factors such as randomness, chance and luck.
+Many AIs took the approach of neural networks over making the AI play like a human, this is because Poker does not have 
+one simple strategy, instead it relies on factors such as randomness, chance and luck.
 
 The neural network approach results in odd bet sizing and a much different strategy than humans are used to seeing.
 
 ==============What environment does this game exist in? **Kyle**==============
-Poker is a competitive game. It is not a game in which it simply takes good "strategy" in order to win such as games like chess. Instead, Poker revolves mainly around deception and mind games. Making the other plays think you have a good hand, when you may not. This is very hard to replicate when it comes to developing AI to play Poker.
+Poker is a competitive game. It is not a game in which it simply takes good "strategy" in order to win such as games like 
+chess. Instead, Poker revolves mainly around deception and mind games. Making the other plays think you have a good hand,
+when you may not. This is very hard to replicate when it comes to developing AI to play Poker.
 
 ==============(Stochastic/deterministic/observable?) + details and explanation as to why **Morgan**===============
 Poker is a stochastic game:
