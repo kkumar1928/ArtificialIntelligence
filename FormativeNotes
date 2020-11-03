@@ -1,5 +1,14 @@
 Game Selected -> **Poker**
 
+=== First Slide =====
+Welcomm to our presentation. This was created by Morgan, Mohammed and Kyle
+
+=== Second Slide ====
+-- The game we chose to do our presentation about is Poker. Poker can consist of a variety of different card games 
+in which players wager over which hand is best according to the specific game's rules.
+-- Poker often using a standard deck, poker games vary in deck configuration, the number of cards in play, the 
+number dealt face up or face down, and the number shared by all players, but all have rules which involve one or more rounds of betting.
+
 ==============How has AI been used to play this game? **Kyle**==============
 PokerSnowie and Claudico are AIs that have been created and developed by allowing the computer to determine the best possible 
 strategy by letting them play itself many many times. This allows the AI to learn the best strategy possible. 
